@@ -29,7 +29,7 @@ print(type(3.14))
 print(type(4-4j))
 print(type(["ASABENET","PYTHON", "FINDLAND"]))
 print(type("HUGO EDUARDO"))
-print("KARINA")               
+print(type("KARINA"))             
 print(type("SAN FRANCISCO"))
 
 Nombre = "Eduardo"
@@ -42,3 +42,4 @@ año = "2006"
 is_married = "no"
 is_true = "yes"
 A, B, C = "a", "bueno", "xd"
+len("hello, world")
