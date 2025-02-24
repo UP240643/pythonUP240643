@@ -42,4 +42,4 @@ año = "2006"
 is_married = "no"
 is_true = "yes"
 A, B, C = "a", "bueno", "xd"
-len("hello, world")
+print(len("hello, world"))
