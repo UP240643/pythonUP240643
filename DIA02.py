@@ -43,3 +43,26 @@ is_married = "no"
 is_true = "yes"
 A, B, C = "a", "bueno", "xd"
 print(len("hello, world"))
+
+num_1 = 5
+num_2 = 4
+total = num_1 + num_2
+diff = num_1 - num_2
+product = num_2 * num_1
+division = num_1 / num_2
+remainder = num_1 % num_2
+floor_division = num_1 // num_2
+exponential = num_2 ** num_1
+
+print(total)
+print(diff)
+print(product)
+print(division)
+print(remainder)
+print(floor_division)
+print(exponential)
+
+# CALCULA EL AREA DE UN CIRCULO
+radio = 10                                 
+area_de_un_circulo = 3.14 * radio ** 2        
+print('El area del circulo es... ', area_de_un_circulo)
