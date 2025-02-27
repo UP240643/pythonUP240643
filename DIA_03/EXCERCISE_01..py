@@ -1,6 +1,6 @@
-age = int(18) 
-height = 1.73
-comp = 7j
+age = int(10) 
+height = 1.76
+comp = 25j
 print(age)
 print(height)
 print(comp)

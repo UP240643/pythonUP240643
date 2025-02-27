@@ -1,0 +1,7 @@
+print(type(9.8))
+print(type(3.14))
+print(type(4-4j))
+print(type(["ASABENET","PYTHON", "FINDLAND"]))
+print(type("HUGO EDUARDO"))
+print(type("KARINA"))             
+print(type("SAN FRANCISCO"))
