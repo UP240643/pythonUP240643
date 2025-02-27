@@ -39,3 +39,4 @@ ciudad = input("Introduce tu cuidad: ")
 edad = input("Introduce tu edad: ")
 
 print("hola",nombre, apellido, "tienes", edad)
+print("keywords")
