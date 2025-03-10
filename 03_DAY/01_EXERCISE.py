@@ -90,3 +90,4 @@ print('youve lived for: ', seconds)
 #Write a Python script that displays the following table
 for i in range(1,6):
     print(f'{i} {i**0} {i**2} {i**3}')
+print("")

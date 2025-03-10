@@ -27,3 +27,4 @@ is_true = "yes"
 
 # Declarar varias variables en una línea
 A, B, C = "a", "bueno", "xd"
+print("")

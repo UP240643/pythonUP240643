@@ -109,4 +109,4 @@ full_stack = join_stack.copy()
 full_stack.insert(5, "Python")
 full_stack.insert(6, "SQL")
 print(full_stack)
-
+print("")

@@ -244,3 +244,4 @@ lst =['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 Ch, rus, usa, *scandic_countries = lst
 
 print(scandic_countries)
+print("")

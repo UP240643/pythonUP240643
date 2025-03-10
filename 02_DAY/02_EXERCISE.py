@@ -52,3 +52,4 @@ print("hola",nombre, apellido, "tienes", edad)
 
 # Ejecute help('keywords') en el shell de Python o en su archivo para comprobar las palabras reservadas o palabras clave de Python
 help("keywords")
+print("")
