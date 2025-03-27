@@ -74,7 +74,71 @@ print(print_list())
 print(" ")
 
 # Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
-def reverse_list():
-    list = [1, 2, 3, 4, 5]
-    return list
-print(reverse_list().reverse)
+def reverse_list(lst):
+    new_lst = []
+    for i in range(-1, -(len(lst))-1, -1):
+        new_lst.append(lst[i])
+    return new_lst
+
+
+print(reverse_list([1, 2, 3, 4]))
+print(" ")
+
+
+# Declare a function named capitalize_list_items. It takes a list as a parameter and it returns a capitalized list of items
+def new_capitalize_list_items(lst):
+    lisst = []
+    for item in lst:
+        lisst.append(item.capitalize())
+    return lisst
+print(new_capitalize_list_items(["deeeam", "booooy"]))
+print(" ")
+
+# Declare a function named add_item. It takes a list and an item parameters. It returns a list with the item added at the end.
+def add_items(lst, item):
+    lst.append(item)
+    return lst
+
+numbers = [1, 2, 4, 3, 6]
+print(add_items(numbers, 5))
+print(" ")
+
+# Declare a function named remove_item. It takes a list and an item parameters. It returns a list with the item removed from it.
+def remove_item(lst, item):
+    lst.remove(item)
+    return(lst)
+
+items = ["porque", "me", "eliminas", "brou"]
+print(remove_item(items, "me"))
+print(" ")
+
+# Declare a function named sum_of_numbers. It takes a number parameter and it adds all the numbers in that range.
+def sum_of_numbers(num):
+    sum = 0
+    for i in range(num+1):
+        sum += 1
+    return sum
+print(sum_of_numbers(3))
+print(" ")
+
+# Declare a function named sum_of_odds. It takes a number parameter and it adds all the odd numbers in that range.
+def sum_of_odds(num):
+    sum = 0
+    for i in range(num+1):
+        if i % 2 != 0:
+            sum += i
+    return sum
+
+print(sum_of_odds(9))
+print(" ")
+
+# Declare a function named sum_of_even. It takes a number parameter and it adds all the even numbers in that - range.
+def sum_of_numbers(num):
+    sum = 0
+    for i in range(num+1):
+        if i % 2 == 0:
+            sum += i
+    return sum
+
+print(sum_of_numbers(12))
+print(" ")
