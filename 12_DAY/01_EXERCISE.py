@@ -8,7 +8,7 @@ def random_user_id():
     for i in range(6):
         res += random.choice(s)
     return res                       
-print(random_user_id())                # print(random_user_id());
+print(random_user_id())               
 print(" ")
 
 # Modify the previous task. Declare a function named user_id_gen_by_user. It doesn’t take any parameters but it takes two inputs using input(). One of the inputs is the number of characters and the second input is the number of IDs which are supposed to be generated.
@@ -38,7 +38,6 @@ def rgb_color_gen():
 print(rgb_color_gen())
 print(" ")
 
-#
 def generate_colors(type, n):
     if type == 'hexa':
         s = "0123456789abcdef"
